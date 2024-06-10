@@ -1,0 +1,5 @@
+-- Find all routine inspections where high-risk issues were found
+-- City of Los Angeles
+
+`select * from los_angeles_restaurant_health_inspections
+where service_description = 'ROUTINE INSPECTION' and grade = 'C';`
